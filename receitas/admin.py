@@ -9,5 +9,7 @@ class ListandoReceitas(admin.ModelAdmin):
     list_editable = ('publicada',)
     list_per_page = 5
 
+    def __str__(self):
+            return self.nome_receita
 
 admin.site.register(Receita, ListandoReceitas)
