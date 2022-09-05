@@ -1,16 +1,16 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-    <!-- Preloader -->
-    <div id="preloader">
-        <i class="circle-preloader"></i>
-        <img src="{% static 'img/core-img/pizza.png' %}" alt="">
-    </div>
+<!-- Preloader -->
+<div id="preloader">
+    <i class="circle-preloader"></i>
+    <img src="{% static 'img/core-img/pizza.png' %}" alt="">
+</div>
 
-    <!-- Search Wrapper -->
-    <div class="search-wrapper">
-        <!-- Close Btn -->
-        <div class="close-btn"><i class="fa fa-times" aria-hidden="true"></i></div>
+<!-- Search Wrapper -->
+<div class="search-wrapper">
+    <!-- Close Btn -->
+    <div class="close-btn"><i class="fa fa-times" aria-hidden="true"></i></div>
 
     {% include 'partials/_busca.html'%}
 
